@@ -1,0 +1,27 @@
+{
+    "name": "braddle/php-uk-2023",
+    "description": "Code for TDD Workshop at PHPUK 2023",
+    "type": "project",
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "mockery/mockery": "^1.5",
+        "infection/infection": "^0.26.18"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Braddle\\PhpUk2023\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mark Bradley",
+            "email": "braddle@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "infection/extension-installer": true
+        }
+    }
+}
