@@ -33,7 +33,7 @@ A strike is when the player knocks down all 10 pins on his first roll. The frame
 The bonus for that frame is the value of the next two rolls.
 
 In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.
-However no more than three balls can be rolled in tenth frame.
+However, no more than three balls can be rolled in tenth frame.
 
 This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to experiment with how the scoring works
 
@@ -41,8 +41,18 @@ This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to 
 
 ## Lab 3: Driving License Number Generator (Test Double)
 
-TODO: Write up requirements
+Implement a class that will generate a driving licence number for a LicenceApplicant. An applicant must be 17 or older 
+to request a Licence number. The generate function should throw an InvalidDriverException. 
 
+A driving licence number must be 15 characters long. It should be made up of the following pieces of information
+
+`[applicate initial][applicant DOB (Format:DDMMYYYY)][RandomNumbers]`
+
+e.g 
+  - John Smith Smithson, Born 14/04/2000 would have a driving licence number of `jss140420001111`
+  - John Smithson, Born 14/04/2000 would have a driving licence number of `js1404200011111`
+
+### Mockery Documentation
 - [Mocks Documentation](http://docs.mockery.io/en/latest/reference/creating_test_doubles.html)
 - [Spies Documentation](http://docs.mockery.io/en/latest/reference/spies.html)
 
