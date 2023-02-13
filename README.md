@@ -11,35 +11,7 @@ Individually or in pairs implement a [Queue](src/ADT/Queue.php) (First In, First
 
 [Video](https://youtu.be/04FzlrMKPTM)
 
-## Lab 2: Bowling Game Score Calculator
-Individually or in pairs implement a score function in the [Bowling Game Class](src/Bowling/Game.php). The function
-`score()` will take a string representation of a single game of Bowling
-
-e.g.
-```text
-44 34 9/ X 13 -1 8- 53 -9 X4/
-```
-
-The function will return the score for the game.
-
-### Rules of Bowling
-The game consists of 10 frames. In each frame the player has two rolls to knock down 10 pins. The score for the frame is
-the total number of pins knocked down, plus bonuses for strikes and spares.
-
-A spare is when the player knocks down all 10 pins in two rolls. The bonus for that frame is the number of pins knocked
-down by the next roll.
-
-A strike is when the player knocks down all 10 pins on his first roll. The frame is then completed with a single roll.
-The bonus for that frame is the value of the next two rolls.
-
-In the tenth frame a player who rolls a spare or strike is allowed to roll the extra balls to complete the frame.
-However, no more than three balls can be rolled in tenth frame.
-
-This [Bowling Game Calculator](https://www.bowlinggenius.com/) may be useful to experiment with how the scoring works
-
-[Video](https://youtu.be/5FKL4Gyj-Y0)
-
-## Lab 3: Driving License Number Generator (Test Double)
+## Lab 2: Driving License Number Generator (Test Double)
 
 Implement a class that will generate a driving licence number for a LicenceApplicant. An applicant must be 17 or older 
 to request a Licence number. The generate function should throw an InvalidDriverException. 
@@ -62,3 +34,9 @@ e.g
 - [Mocks Video](https://youtu.be/KaUdUTtyDSc)
 - [Fakes Video](https://youtu.be/aIMLaKtT828)
 - [Isolating Unit Tests](https://youtu.be/H5XbK91ncx0)
+
+## Lab III: Roman Numeral Converter
+
+Implement a function that converts Arabic Number to [Roman Numerals](https://www.mathsisfun.com/roman-numerals.html)
+
+The function should be able to convert any number between 1 and 4000 to a Roman Numeral
