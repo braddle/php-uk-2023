@@ -2,7 +2,12 @@
 
 namespace ADT;
 
-class QueueTest
-{
+use PHPUnit\Framework\TestCase;
 
+class QueueTest extends TestCase
+{
+    public function testHolding()
+    {
+        $this->assertTrue(true);
+    }
 }

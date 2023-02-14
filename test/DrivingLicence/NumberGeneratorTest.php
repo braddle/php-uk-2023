@@ -1,11 +1,10 @@
 <?php
 
-namespace ADT;
+namespace DrivingLicence;
 
 use PHPUnit\Framework\TestCase;
-use SebastianBergmann\FileIterator\Facade;
 
-class StackTest extends TestCase
+class NumberGeneratorTest extends TestCase
 {
     public function testHolding()
     {

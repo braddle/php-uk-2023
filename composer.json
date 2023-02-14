@@ -5,7 +5,8 @@
     "require": {
         "phpunit/phpunit": "^9.5",
         "mockery/mockery": "^1.5",
-        "infection/infection": "^0.26.18"
+        "infection/infection": "^0.26.18",
+        "psr/log": "^3.0"
     },
     "license": "MIT",
     "autoload": {
